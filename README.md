@@ -86,7 +86,7 @@ Before you begin, make sure you have the following:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hunter-bot.git
+git clone https://github.com/Obedweb/Telegram-bot.git
 cd hunter-bot
 ```
 

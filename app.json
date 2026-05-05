@@ -1,0 +1,21 @@
+{
+    "name": "telegram-md",
+    "description": "Hunter-Md, A simple Telegram user bot Created by Obed Tech",
+    "logo": "https://files.catbox.moe/924dcb.jpg",
+    "repository": "https://github.com/Obedweb/Telegram-bot",
+    "keywords": ["telegram-bot", "gifted-api", "multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "OWNER_ID": {
+        "description": "Your telegram owner ID",
+        "value": "",
+        "required": true 
+      },
+      "BOT_TOKEN": {
+        "description": "Your telegram bot token",
+        "value": "",
+        "required": true 
+      }
+    }   
+}
